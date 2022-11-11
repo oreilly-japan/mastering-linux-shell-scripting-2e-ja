@@ -1,0 +1,7 @@
+"Hello message": {
+    "prefix": "hello",
+    "body": [
+        "echo 'Hello $1' "
+    ],
+    "description": "Hello message"
+}

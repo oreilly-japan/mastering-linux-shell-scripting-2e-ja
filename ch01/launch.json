@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Packt Bash-Debug",
+            "type": "bashdb",
+            "request": "launch",
+            "program": "${command:SelectScriptName}",
+            "args": []
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+Oct  9 17:01:54 mint postfix/smtpd[11364]: connect from mta33.mail01.example.com[192.0.2.94]
+Oct  9 17:01:54 mint postfix/smtpd[11364]: 5AF0EC6DD05: client=mta33.mail01.example.com[192.0.2.94]
+Oct  9 17:01:54 mint postfix/cleanup[11368]: 5AF0EC6DD05: message-id=<C_M_M_I_D.11_0_339780_0_0.64798.1665302514@mail01.example.com>
+Oct  9 17:01:54 mint postfix/qmgr[17533]: 5AF0EC6DD05: from=<11-339780-0-0-0-64798-1@mail01.example.com>, size=34348, nrcpt=1 (queue active)
+Oct  9 17:01:54 mint postfix/local[11369]: 5AF0EC6DD05: to=<mlss@mint.example.org>, relay=local, delay=0.25, delays=0.24/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Oct  9 17:01:54 mint postfix/qmgr[17533]: 5AF0EC6DD05: removed
+Oct  9 17:01:54 mint postfix/smtpd[11364]: disconnect from mta33.mail01.example.com[192.0.2.94]
+Oct 10 09:23:27 mint postfix/smtpd[17163]: connect from a24-37.smtp-out.example.net[198.51.100.37]
+Oct 10 09:23:27 mint postfix/smtpd[17163]: Anonymous TLS connection established from a24-37.smtp-out.example.net[198.51.100.37]: TLSv1.2 with cipher ECDHE-RSA-AES128-SHA256 (128/128 bits)
+Oct 10 09:23:28 mint postfix/smtpd[17163]: 20043C6DD05: client=a24-37.smtp-out.example.net[198.51.100.37]
+Oct 10 09:23:28 mint postfix/cleanup[17166]: 20043C6DD05: message-id=<01010183bf46687e-e27ec325-0cbf-4920-b63a-ea0f13f81a16-000000@us-west-2.example.net>
+Oct 10 09:23:28 mint postfix/smtpd[17159]: connect from unknown[10.0.0.10]
+Oct 10 09:23:28 mint postfix/qmgr[17533]: 20043C6DD05: from=<202210100023254616c3a3e2b34017bdd9b8c73100p0fe-CRU1BD7CQMPFI@bounces.example.net>, size=68677, nrcpt=1 (queue active)
+Oct 10 09:23:28 mint postfix/local[17168]: 20043C6DD05: to=<mlss@mint.example.org>, relay=local, delay=0.74, delays=0.73/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Oct 10 09:23:28 mint postfix/qmgr[17533]: 20043C6DD05: removed
+Oct 10 09:23:31 mint postfix/smtpd[17159]: Anonymous TLS connection established from unknown[10.0.0.10]: TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits)
+Oct 10 09:23:36 mint postfix/smtpd[17159]: warning: unknown[10.0.0.10]: SASL LOGIN authentication failed: UGFzc3dvcmQ6
+Oct 10 09:23:36 mint postfix/smtpd[17159]: disconnect from unknown[10.0.0.10]
+Oct 10 09:23:50 mint postfix/smtpd[17163]: disconnect from a24-37.smtp-out.example.net[198.51.100.37]
+Oct 11 05:11:32 mint postfix/smtpd[22293]: connect from cmml015.example.edu[203.0.113.124]
+Oct 11 05:11:33 mint postfix/smtpd[22293]: 32D41C6DD05: client=cmml015.example.edu[203.0.113.124]
+Oct 11 05:11:33 mint postfix/cleanup[22297]: 32D41C6DD05: message-id=<C_M_M_I_D.11_0_678650_0_0.6128.1665432692@cmreturn.example.edu>
+Oct 11 05:11:33 mint postfix/qmgr[17533]: 32D41C6DD05: from=<11-678650-0-0-0-6128-1@cmreturn.example.edu>, size=114332, nrcpt=1 (queue active)
+Oct 11 05:11:33 mint postfix/local[22298]: 32D41C6DD05: to=<mlss@mint.example.org>, relay=local, delay=0.38, delays=0.37/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Oct 11 05:11:33 mint postfix/qmgr[17533]: 32D41C6DD05: removed
+Oct 11 05:11:33 mint postfix/smtpd[22293]: disconnect from cmml015.example.edu[203.0.113.124]
+Oct 11 07:04:02 mint postfix/smtpd[22896]: connect from maildeli15.example.com[172.16.0.28]
+Oct 11 07:04:02 mint postfix/smtpd[22896]: Anonymous TLS connection established from maildeli15.example.com[172.16.0.28]: TLSv1.2 with cipher AECDH-AES256-SHA (256/256 bits)
+Oct 11 07:04:03 mint postfix/smtpd[22896]: 2CCD4C6DD05: client=maildeli15.example.com[172.16.0.28]
+Oct 11 07:04:03 mint postfix/cleanup[22899]: 2CCD4C6DD05: message-id=<168213292.6759.1665439442623@pokpok1app11>
+Oct 11 07:04:03 mint postfix/qmgr[17533]: 2CCD4C6DD05: from=<customer_service@example.com>, size=4204, nrcpt=1 (queue active)
+Oct 11 07:04:03 mint postfix/local[22900]: 2CCD4C6DD05: to=<mlss@mint.example.org>, relay=local, delay=0.27, delays=0.26/0.01/0/0, dsn=2.0.0, status=sent (delivered to maildir)
+Oct 11 07:04:03 mint postfix/qmgr[17533]: 2CCD4C6DD05: removed
+Oct 11 07:04:03 mint postfix/smtpd[22896]: disconnect from maildeli15.example.com[172.16.0.28]
