@@ -1,12 +1,12 @@
-# マスタリングLinuxシェルスクリプト
+# マスタリングLinuxシェルスクリプト 第2版
 
 ---
 
-![表紙](mastering-linux-shell-scripting-2e-ja.png)
+<img src="mastering-linux-shell-scripting-2e-ja.png" width="40%" alt="表紙">
 
 ---
 
-本リポジトリはオライリー・ジャパン発行書籍『[マスタリングLinuxシェルスクリプト](https://www.oreilly.co.jp/books/9784814400119)』のサポートサイトです。
+本リポジトリはオライリー・ジャパン発行書籍『[マスタリングLinuxシェルスクリプト 第2版](https://www.oreilly.co.jp/books/9784814400119)』のサポートサイトです。
 
 ## サンプルコード
 
